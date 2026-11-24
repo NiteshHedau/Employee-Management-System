@@ -1,36 +1,16 @@
-# Employee Management System (EMS)
+# React + Vite
 
-A full-stack Employee Management System developed using the MERN stack to simplify and automate employee-related organizational workflows.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- **Employee Management:** Create, update, view, and manage employee records.
-- **Attendance Management:** Track and manage employee attendance.
-- **Leave Management:** Handle employee leave requests and approvals.
-- **Payroll Management:** Support payroll processing workflows.
-- **Role-Based Access Control:** Secure API endpoints with role-based permissions.
-- **Background Jobs:** Schedule and automate tasks using Inngest.
-- **Email Notifications:** Send automated emails using NodeMailer.
-- **Error Handling:** Implement reliable backend error handling.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
+## React Compiler
 
-- Frontend: React.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Background Jobs: Inngest
-- Email Service: NodeMailer
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Installation
+## Expanding the ESLint configuration
 
-1. Clone the repository.
-2. Install dependencies for the frontend and backend.
-3. Configure environment variables.
-4. Start the backend and frontend development servers.
-
-## Future Improvements
-
-- Advanced analytics dashboard
-- Employee performance tracking
-- Payroll reports and export functionality
-- Enhanced authentication and security
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
